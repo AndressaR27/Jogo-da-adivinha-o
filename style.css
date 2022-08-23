@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 62.5%;
+}
+
+body {
+    background-image: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+
+    /* display: grid;
+    place-items: center; */
+}
+
+body, button, input {
+    font-family:  'DM Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+main {
+    background-color: #FFFFFF;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    width: min(42.8rem, 90%);
+    margin: auto;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+/* screen1 */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1.6rem;
+    font-size: 2.4rem;
+    color: #34355B;
+}
+
+p {
+    color: #34355B;
+    opacity: 0.8;
+}
+
+form {
+    margin-top: 4.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input {
+    padding: 1.6rem;
+    background-color: #DCE2E9;
+    border: none;
+    width: 6rem;
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+
+button {
+    padding: 1.6rem;
+    background-color: #7879F1;
+    border-radius: 0 0.4rem 0.4rem 0;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color:#5b5bb8 ;
+}
+
+.wrongNumber {
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+    color: #34355B;
+    margin-bottom: 3rem;
+    font-weight: normal;
+}
+
+.screen2 button {
+    border-radius: 0.4rem;
+}
